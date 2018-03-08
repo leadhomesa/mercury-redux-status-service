@@ -1,0 +1,20 @@
+{
+  "name": "mercury-redux-status-service",
+  "version": "1.0.0",
+  "description": "Keep track of loading states using a key per instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/leadhomesa/mercury-redux-status-service.git",
+  "author": "Justus Burger <justusburger.co.za>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leadhomesa/mercury-redux-status-service/issues"
+  },
+  "homepage": "https://github.com/leadhomesa/mercury-redux-status-service#readme",
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "redux-actions": "^2.3.0"
+  }
+}
