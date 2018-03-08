@@ -1,6 +1,6 @@
 {
   "name": "mercury-redux-status-service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Keep track of loading states using a key per instance",
   "main": "dist/index.js",
   "scripts": {
