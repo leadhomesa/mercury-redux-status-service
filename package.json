@@ -4,7 +4,7 @@
   "description": "Keep track of loading states using a key per instance",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "babel src -d dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git+https://github.com/leadhomesa/mercury-redux-status-service.git",
@@ -19,10 +19,9 @@
     "redux-actions": "^2.3.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
     "babel-loader": "^7.1.4",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.10"
+    "babel-preset-env": "^1.6.1"
   }
 }
